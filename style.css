@@ -1,4 +1,58 @@
-body {background-color:tan;}
-h1{color:green;}
+/*body {background-color:tan;} */
+/*h1{color:green;}*/
 
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
 
+.maindiv {
+margin: auto;
+/*justify-content: center; */
+/*align-self: center; */
+background-color: white;
+font-size: 16px;
+color: black;
+width: 500px;
+padding: 30px;
+border-radius: 25px;
+
+}
+
+/*.slidecontainer{
+width: 75%;
+margin-top: 200px;
+
+}
+
+.slider::after{
+content: '100';
+color: white;
+font-size: 2rem;
+position: absolute;
+left: 80%;
+top: 26%;
+
+}
+
+.slider::before{
+    content: '0';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 12%;
+    top: 26%;
+    
+    }
+    
+.slider{
+    -webkit-appearance: none;
+    width: 75%;
+    height: 20px;
+    background: linear-gradient(90 deg, rgb(117,252,117) 60 %, rgb(214,214,214)60%);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition:opacity 0.2s;
+    border-radius: 12px;
+    box-shadow: 0px 1px 10px 1 px :blank;
+
+}*/
