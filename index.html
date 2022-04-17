@@ -9,11 +9,10 @@
     </head>
 
      <body>
-        <!--form id="form1" onsubmit="checkdata()"></form-->
         <div class="maindiv">
             <h1>Simple Interest Calculator</h1>
             <label for="principal">   Amount </label>
-            <input type="number"  id="principal" name="principal" onchange="checkdata()">  <br/>
+            <input type="number" placeholder="Please enter Amount"  id="principal" name="principal" required title="Please enter Amount" >  <br/>
             <br/>
             <!-- -->
             <!--Rate <input type="number"  id="rate">  <br/-->
@@ -39,9 +38,13 @@
                 <option value="10">10</option>
                 <!-- fill in the rest of the values-->
             </select> <br/><br/>
-            
+            <!--label for="result"> Interest: </label-->                
+            <!--span id="result"></span><br><br/-->
+            <!--label for="submit">Compute Interest.</label> 
+            <input type="submit" onclick="compute()"><br/><br/-->
             <button onclick="compute()">Compute Interest.</button><br/><br/>
             <span id="result"> </span><br/><br/>
+
             <footer>
                 &#169; Everyone Can Get Rich
             </footer>  
@@ -49,3 +52,4 @@
         </div>
     </body>
 </html>
+
